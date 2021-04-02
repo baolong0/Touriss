@@ -1,31 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A\\Desktop\\Touris\\Touriss\\Touriss.csproj": {}
+    "/Users/apple/Downloads/IT_CNPM/Android/Team/API/Touriss/Touriss.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A\\Desktop\\Touris\\Touriss\\Touriss.csproj": {
+    "/Users/apple/Downloads/IT_CNPM/Android/Team/API/Touriss/Touriss.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A\\Desktop\\Touris\\Touriss\\Touriss.csproj",
+        "projectUniqueName": "/Users/apple/Downloads/IT_CNPM/Android/Team/API/Touriss/Touriss.csproj",
         "projectName": "Touriss",
-        "projectPath": "C:\\Users\\A\\Desktop\\Touris\\Touriss\\Touriss.csproj",
-        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A\\Desktop\\Touris\\Touriss\\obj\\",
+        "projectPath": "/Users/apple/Downloads/IT_CNPM/Android/Team/API/Touriss/Touriss.csproj",
+        "packagesPath": "/Users/apple/.nuget/packages/",
+        "outputPath": "/Users/apple/Downloads/IT_CNPM/Android/Team/API/Touriss/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/apple/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -97,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
