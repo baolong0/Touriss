@@ -29,16 +29,15 @@ namespace Touriss.Controllers
                                 .Include(h => h.Types)
                                 .Include(h => h.Address)
                                 .ToListAsync();
-
+            var types = await _context.Types
+                                .ToListAsync();
             return hotels.Select(hotels => new HotelToReturnDto
             {
                 Id = hotels.Id,
                 Name = hotels.Name,
                 Address = hotels.Address.City.ToString(),
                 Photos = hotels.Photos.ToString(),
-                //Types = hotels.Type.....
-                //Type cannot call a foreign key
-
+                Types = types.Where(x=> x.IdHotel==hotels.Id).Select(x => x.Price).ToString(),
             }).ToList();
         }
     }
